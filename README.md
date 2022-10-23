@@ -11,7 +11,7 @@ I have to manually add each book to the SQL table which may be time consuming. H
 ### SQL Diagram
 <img width="652" alt="Screen_Shot_2022-10-23_at_5 41 53_PM" src="https://user-images.githubusercontent.com/24259728/197421663-ecf2fc49-15e4-4a61-96db-4b0ff8a18722.png">
 
-| Api              | Description     | Request Body | Response Body     | SQL Command |
+| Api              | Description     | Request Body | Response Body     | SQL Command | 
 | :--------        | :------- | :-------- | :------- | :--------------- |
 | `GET /api/bookshelf/` | Get books in bookshelf | None | Array of Book Names in shelf | `SELECT * FROM Books;`|
 | `GET /api/bookshelf/{id}` | Get book details by id | None | Book details | `SELECT * FROM Books WHERE Id = {id};` |
