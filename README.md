@@ -13,8 +13,8 @@ I have to manually add each book to the SQL table which may be time consuming. H
 
 | Api              | Description     | Request Body | Response Body     | SQL Command |
 | :--------        | :------- | :-------- | :------- | :--------------- |
-| `GET /api/bookshelf/` | Get books in bookshelf | None | Array of Book Names in shelf | |
-| `GET /api/bookshelf/{id}` | Get book details by id | None | Book details | |
-| `POST /api/bookshelf/` | Add new book | Book Details | None     | |
-| `PUT /api/bookshelf/{id}` | Update existing book | Book Details | None     | |
-| `DELETE /api/bookshelf/{id}` | Delete existing book | Book Details | None     | |
+| `GET /api/bookshelf/` | Get books in bookshelf | None | Array of Book Names in shelf | `SELECT * FROM Books;`|
+| `GET /api/bookshelf/{id}` | Get book details by id | None | Book details | `SELECT * FROM Books WHERE Id = {id};` |
+| `POST /api/bookshelf/` | Add new book | Book Details | None     | `INSERT INTO Books (...) VALUES (...)` |
+| `PUT /api/bookshelf/{id}` | Update existing book | Book Details | None     | `UPDATE Books`, `SET ... = ...`, `WHERE Id = {id};`|
+| `DELETE /api/bookshelf/{id}` | Delete existing book | Book Details | None     | `DELETE Books` , `WHERE Id = {id}`|
