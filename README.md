@@ -4,6 +4,8 @@
 
 I have so many books in my book shelf and lose track of the books that I have. At the moment, to find out if I have a book in my book shelf I have to manually search for each book in my shelf which worst case takes linear time. With this API, I can make a GET request and find out if I currently have the book instantly!
 
+[bookshelf.pdf](https://github.com/Halgamoos/API-Idea/files/9905028/bookshelf.pdf)
+
 #### Downside
 
 I have to manually add each book to the SQL table which may be time consuming. However, once I have every book in my bookshelf, I can add, remove, and look up for each book that I have.
