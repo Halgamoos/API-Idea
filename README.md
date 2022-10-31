@@ -4,7 +4,7 @@
 
 I have so many books in my book shelf and lose track of the books that I have. At the moment, to find out if I have a book in my book shelf I have to manually search for each book in my shelf which worst case takes linear time. With this API, I can make a GET request and find out if I currently have the book instantly!
 
-<img width="946" alt="Screen Shot 2022-10-31 at 5 04 51 PM" src="https://user-images.githubusercontent.com/24259728/199110423-79e9c83f-20da-42b0-9e7d-9fb111571eb6.png">
+<img width="200" alt="Screen Shot 2022-10-31 at 5 04 51 PM" src="https://user-images.githubusercontent.com/24259728/199110423-79e9c83f-20da-42b0-9e7d-9fb111571eb6.png">
 
 #### Downside
 
